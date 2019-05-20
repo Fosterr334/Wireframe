@@ -8,28 +8,30 @@
 
     section {
         float: left;
-        width: 495px;
+        width: 60%;
         height: 300px;
         margin: 10px 0px 0px 0px;
-        padding: 0px 30px 0px 30px ;
+        padding: 0px 30px 30px 30px ;
     }
 
     h {
         padding: 10px;
+        margin-left: -5.33% ;
+
     }
 
 
     aside {
         
         float: right;
-        width: 170px;
-        height: 300px;
-        margin: 10px 0px 0px 0px;
+        width: 30%;
+        height: 330px;
+        margin: 10px 0px 30px 0px;
 
     }
 
     footer {
-        margin-top: 330px;
+        margin-top: 350px;
         padding: 10px;
     }
 
@@ -50,17 +52,21 @@
         margin-left: 34.33% ;
     }
 
+    p.sect{
+        margin-left: -5%;
+    }
+
     /*Global Traits*/
 
      body, article {
         background-color: #777;
     }
 
-    footer, aside, section, nav, h1, p, h, p.one {
+    footer, aside, section, nav, h1, p, h, p.one, p.sect{
         background-color: #ebebeb;
     }
 
-    footer, aside, article, h1, p, h, p.one {
+    footer, aside, article, h1, p, h, p.one, p.sect {
         color: #777;
     }
 
